@@ -1,0 +1,52 @@
+[
+  {
+    "ano": 1933,
+    "titulo": "Hitler chega ao poder",
+    "descricao": "Em janeiro, Adolf Hitler é nomeado chanceler da Alemanha, e o regime nazista começa a se consolidar."
+  },
+  {
+    "ano": 1937,
+    "titulo": "Invasão da China",
+    "descricao": "O Japão lança a invasão em larga escala da China, conflito que se liga à guerra no Pacífico."
+  },
+  {
+    "ano": 1939,
+    "titulo": "Invasão da Polônia",
+    "descricao": "Em 1º de setembro, a Alemanha invade a Polônia. Reino Unido e França declaram guerra dois dias depois, e a Segunda Guerra Mundial começa."
+  },
+  {
+    "ano": 1940,
+    "titulo": "Queda da França",
+    "descricao": "Após a ofensiva de maio, a França assina o armistício em junho. No verão, o Reino Unido resiste à ofensiva aérea alemã na Batalha da Grã-Bretanha."
+  },
+  {
+    "ano": 1941,
+    "titulo": "Barbarossa e Pearl Harbor",
+    "descricao": "Em junho, a Alemanha ataca a União Soviética. Em dezembro, o Japão bombardeia Pearl Harbor, e os Estados Unidos entram na guerra."
+  },
+  {
+    "ano": 1942,
+    "titulo": "Midway e Stalingrado",
+    "descricao": "Em junho, a Batalha de Midway enfraquece a frota japonesa. Entre agosto de 1942 e fevereiro de 1943, a Batalha de Stalingrado marca a virada na frente oriental."
+  },
+  {
+    "ano": 1943,
+    "titulo": "Queda de Mussolini",
+    "descricao": "Em julho, Mussolini é destituído pelo Grande Conselho Fascista e preso. Em setembro, a Itália anuncia o armistício com os Aliados."
+  },
+  {
+    "ano": 1944,
+    "titulo": "Dia D",
+    "descricao": "Em 6 de junho, tropas aliadas desembarcam na Normandia. Nos meses seguintes, a França é libertada, e Paris cai em agosto."
+  },
+  {
+    "ano": 1945,
+    "titulo": "Fim da guerra na Europa",
+    "descricao": "Em abril, Hitler morre em Berlim. Em 8 de maio, a Alemanha assina a rendição incondicional."
+  },
+  {
+    "ano": 1945,
+    "titulo": "Fim da guerra no Pacífico",
+    "descricao": "Em agosto, os EUA lançam bombas atômicas sobre Hiroshima e Nagasaki. Em 2 de setembro, o Japão assina a rendição formal."
+  }
+]

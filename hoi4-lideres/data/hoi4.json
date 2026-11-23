@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "nome": "Adolf Hitler",
+    "pais": "Alemanha",
+    "imagem": "🇩🇪",
+    "cargo": "Führer e chanceler do Reich",
+    "faccao": "Eixo",
+    "status": "Falecido",
+    "anoFalecimento": 1945,
+    "descricao": "Líder do regime nazista, conduziu a Alemanha durante a Segunda Guerra Mundial."
+  },
+  {
+    "id": 2,
+    "nome": "Benito Mussolini",
+    "pais": "Itália",
+    "imagem": "🇮🇹",
+    "cargo": "Duce e chefe de governo",
+    "faccao": "Eixo",
+    "status": "Falecido",
+    "anoFalecimento": 1945,
+    "descricao": "Fundador do fascismo italiano, governou a Itália de 1922 a 1943."
+  },
+  {
+    "id": 3,
+    "nome": "Hirohito",
+    "pais": "Japão",
+    "imagem": "🇯🇵",
+    "cargo": "Imperador do Japão",
+    "faccao": "Eixo",
+    "status": "Falecido",
+    "anoFalecimento": 1989,
+    "descricao": "Reinou de 1926 a 1989, período que inclui a guerra no Pacífico."
+  },
+  {
+    "id": 4,
+    "nome": "Ion Antonescu",
+    "pais": "Romênia",
+    "imagem": "🇷🇴",
+    "cargo": "Conducător e chefe de governo",
+    "faccao": "Eixo",
+    "status": "Executado",
+    "anoFalecimento": 1946,
+    "descricao": "Governou a Romênia durante a guerra e alinhou o país à Alemanha nazista."
+  },
+  {
+    "id": 5,
+    "nome": "Winston Churchill",
+    "pais": "Reino Unido",
+    "imagem": "🇬🇧",
+    "cargo": "Primeiro-ministro",
+    "faccao": "Aliados",
+    "status": "Falecido",
+    "anoFalecimento": 1965,
+    "descricao": "Liderou o Reino Unido de 1940 a 1945, nos anos mais difíceis do conflito."
+  },
+  {
+    "id": 6,
+    "nome": "Franklin D. Roosevelt",
+    "pais": "Estados Unidos",
+    "imagem": "🇺🇸",
+    "cargo": "Presidente dos Estados Unidos",
+    "faccao": "Aliados",
+    "status": "Falecido",
+    "anoFalecimento": 1945,
+    "descricao": "Presidiu os EUA de 1933 até sua morte, em 1945, incluindo a entrada do país na guerra."
+  },
+  {
+    "id": 7,
+    "nome": "Joseph Stalin",
+    "pais": "União Soviética",
+    "imagem": "🇷🇺",
+    "cargo": "Secretário-geral do Partido Comunista",
+    "faccao": "Aliados",
+    "status": "Falecido",
+    "anoFalecimento": 1953,
+    "descricao": "Comandou a União Soviética na guerra contra a Alemanha nazista."
+  },
+  {
+    "id": 8,
+    "nome": "Charles de Gaulle",
+    "pais": "França",
+    "imagem": "🇫🇷",
+    "cargo": "Líder da França Livre",
+    "faccao": "Aliados",
+    "status": "Falecido",
+    "anoFalecimento": 1970,
+    "descricao": "Organizou a resistência francesa a partir de Londres."
+  },
+  {
+    "id": 9,
+    "nome": "Chiang Kai-shek",
+    "pais": "China",
+    "imagem": "🇨🇳",
+    "cargo": "Líder do Kuomintang",
+    "faccao": "Aliados",
+    "status": "Falecido",
+    "anoFalecimento": 1975,
+    "descricao": "Comandou a resistência chinesa contra a invasão japonesa."
+  }
+]

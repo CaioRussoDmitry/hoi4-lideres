@@ -1,0 +1,329 @@
+/* Variáveis de cor: tom militar com detalhes em latão */
+:root {
+  --fundo: #1b1f1a;
+  --painel: #262c25;
+  --destaque: #c9a227;
+  --texto: #e8e4d0;
+  --eixo: #7a2e2e;
+  --aliado: #2e4f7a;
+  --sombra: rgba(0, 0, 0, 0.45);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Trebuchet MS", system-ui, sans-serif;
+  background: var(--fundo);
+  color: var(--texto);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Espaço extra para o menu fixo não cobrir o título ao navegar pelos links */
+header,
+section {
+  scroll-margin-top: 4rem;
+}
+
+main {
+  flex: 1;
+}
+
+/* Menu fixo */
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0.9rem 1rem;
+  background: var(--painel);
+  border-bottom: 1px solid var(--destaque);
+}
+
+.menu a {
+  color: var(--texto);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.9rem;
+}
+
+.menu a:hover {
+  color: var(--destaque);
+}
+
+/* Entrada da página */
+.entrada {
+  text-align: center;
+  padding: 4rem 1rem 3rem;
+  background: radial-gradient(ellipse at top, #34402f, var(--fundo) 70%);
+  border-bottom: 3px solid var(--destaque);
+}
+
+.entrada h1 {
+  font-size: clamp(2rem, 6vw, 3.4rem);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--destaque);
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  margin-top: 0.6rem;
+}
+
+.texto-entrada {
+  max-width: 640px;
+  margin: 1.2rem auto 0;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.botao {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  background: var(--destaque);
+  color: var(--fundo);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+}
+
+.botao.secundario {
+  background: transparent;
+  color: var(--destaque);
+  border: 2px solid var(--destaque);
+}
+
+.botao:hover {
+  opacity: 0.85;
+}
+
+/* Seções de conteúdo */
+.secao {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+}
+
+.secao h2 {
+  text-align: center;
+  color: var(--destaque);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.5rem;
+}
+
+.controles {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#busca {
+  width: min(420px, 100%);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--destaque);
+  background: var(--painel);
+  color: var(--texto);
+  font-size: 1rem;
+}
+
+#busca:focus {
+  outline: 2px solid var(--destaque);
+}
+
+.mensagem {
+  text-align: center;
+  margin-bottom: 1.25rem;
+  opacity: 0.85;
+}
+
+/* Grade de cards */
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  --cor: var(--aliado);
+  background: var(--painel);
+  border-radius: 10px;
+  border-top: 6px solid var(--cor);
+  overflow: hidden;
+  box-shadow: 0 6px 18px var(--sombra);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.card.eixo {
+  --cor: var(--eixo);
+}
+
+.card.aliado {
+  --cor: var(--aliado);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-imagem {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5rem;
+  background: radial-gradient(circle, #3a4237, var(--painel));
+}
+
+.card-corpo {
+  padding: 1rem 1.1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  color: var(--destaque);
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 0;
+}
+
+.pais {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.cargo {
+  font-size: 0.9rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.faccao {
+  align-self: flex-start;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  background: var(--cor);
+  color: #fff;
+}
+
+.descricao {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin-top: 0.3rem;
+}
+
+.estado {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* Linha do tempo */
+.linha-do-tempo {
+  list-style: none;
+  position: relative;
+  max-width: 760px;
+  margin: 0 auto;
+  padding-left: 2.5rem;
+}
+
+/* Linha vertical à esquerda */
+.linha-do-tempo::before {
+  content: "";
+  position: absolute;
+  left: 0.9rem;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--destaque);
+}
+
+.evento {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.2rem;
+  background: var(--painel);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px var(--sombra);
+}
+
+/* Marcador redondo sobre a linha */
+.evento::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.6rem - 5.5px);
+  top: 1.2rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--destaque);
+  border: 3px solid var(--fundo);
+}
+
+.ano {
+  display: block;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--destaque);
+}
+
+.evento h3 {
+  font-size: 1.05rem;
+  margin: 0.2rem 0 0.4rem;
+}
+
+.evento p {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  border-top: 1px solid var(--painel);
+}
+
+/* Celulares: um card por linha */
+@media (max-width: 480px) {
+  .grid-cards {
+    grid-template-columns: 1fr;
+  }
+}
